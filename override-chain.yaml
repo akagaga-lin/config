@@ -1,0 +1,21 @@
+proxy-groups:
+  - name: AI
+    type: relay
+    proxies:
+      - 鹿语云
+      - VPS
+
+  - name: Telegram
+    type: relay
+    proxies:
+      - 鹿语云
+      - VPS
+
+proxies:
+  - name: VPS
+    type: ss
+    server: 107.173.103.59
+    port: 8888
+    cipher: aes-256-gcm
+    password: 2981627107a
+    udp: true
